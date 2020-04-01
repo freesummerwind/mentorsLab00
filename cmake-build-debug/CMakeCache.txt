@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=template
+CMAKE_PROJECT_NAME:STATIC=lab_00
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/dev/mingw64/mingw64/bin/ranlib.exe
@@ -258,6 +258,12 @@ HUNTER_STATUS_PRINT:BOOL=ON
 
 //Enable/disable TLS certificate checking on downloads
 HUNTER_TLS_VERIFY:BOOL=ON
+
+//Value Computed by CMake
+lab_00_BINARY_DIR:STATIC=D:/Lab_Mentors/lab_00/cmake-build-debug
+
+//Value Computed by CMake
+lab_00_SOURCE_DIR:STATIC=D:/Lab_Mentors/lab_00
 
 //Value Computed by CMake
 template_BINARY_DIR:STATIC=D:/Lab_Mentors/lab_00/cmake-build-debug

@@ -1,4 +1,4 @@
-D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/template.dir
+D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/lab_00.dir
 D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/tests.dir
 D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/test.dir

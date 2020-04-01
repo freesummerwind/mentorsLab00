@@ -121,17 +121,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named template
+# Target rules for targets named lab_00
 
 # Build rule for target.
-template: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 template
-.PHONY : template
+lab_00: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 lab_00
+.PHONY : lab_00
 
 # fast build rule for target.
-template/fast:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/build
-.PHONY : template/fast
+lab_00/fast:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/build
+.PHONY : lab_00/fast
 
 #=============================================================================
 # Target rules for targets named tests
@@ -152,7 +152,7 @@ sources/source.obj: sources/source.cpp.obj
 
 # target to build an object file
 sources/source.cpp.obj:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/sources/source.cpp.obj
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/source.cpp.obj
 .PHONY : sources/source.cpp.obj
 
 sources/source.i: sources/source.cpp.i
@@ -161,7 +161,7 @@ sources/source.i: sources/source.cpp.i
 
 # target to preprocess a source file
 sources/source.cpp.i:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/sources/source.cpp.i
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/source.cpp.i
 .PHONY : sources/source.cpp.i
 
 sources/source.s: sources/source.cpp.s
@@ -170,7 +170,7 @@ sources/source.s: sources/source.cpp.s
 
 # target to generate assembly for a file
 sources/source.cpp.s:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/sources/source.cpp.s
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/source.cpp.s
 .PHONY : sources/source.cpp.s
 
 sources/task01.obj: sources/task01.cpp.obj
@@ -179,7 +179,7 @@ sources/task01.obj: sources/task01.cpp.obj
 
 # target to build an object file
 sources/task01.cpp.obj:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/sources/task01.cpp.obj
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task01.cpp.obj
 	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task01.cpp.obj
 .PHONY : sources/task01.cpp.obj
 
@@ -189,7 +189,7 @@ sources/task01.i: sources/task01.cpp.i
 
 # target to preprocess a source file
 sources/task01.cpp.i:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/sources/task01.cpp.i
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task01.cpp.i
 	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task01.cpp.i
 .PHONY : sources/task01.cpp.i
 
@@ -199,9 +199,39 @@ sources/task01.s: sources/task01.cpp.s
 
 # target to generate assembly for a file
 sources/task01.cpp.s:
-	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/sources/task01.cpp.s
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task01.cpp.s
 	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task01.cpp.s
 .PHONY : sources/task01.cpp.s
+
+sources/task02.obj: sources/task02.cpp.obj
+
+.PHONY : sources/task02.obj
+
+# target to build an object file
+sources/task02.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task02.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task02.cpp.obj
+.PHONY : sources/task02.cpp.obj
+
+sources/task02.i: sources/task02.cpp.i
+
+.PHONY : sources/task02.i
+
+# target to preprocess a source file
+sources/task02.cpp.i:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task02.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task02.cpp.i
+.PHONY : sources/task02.cpp.i
+
+sources/task02.s: sources/task02.cpp.s
+
+.PHONY : sources/task02.s
+
+# target to generate assembly for a file
+sources/task02.cpp.s:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task02.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task02.cpp.s
+.PHONY : sources/task02.cpp.s
 
 tests/test.obj: tests/test.cpp.obj
 
@@ -236,7 +266,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... template
+	@echo ... lab_00
 	@echo ... tests
 	@echo ... rebuild_cache
 	@echo ... test
@@ -247,6 +277,9 @@ help:
 	@echo ... sources/task01.obj
 	@echo ... sources/task01.i
 	@echo ... sources/task01.s
+	@echo ... sources/task02.obj
+	@echo ... sources/task02.i
+	@echo ... sources/task02.s
 	@echo ... tests/test.obj
 	@echo ... tests/test.i
 	@echo ... tests/test.s

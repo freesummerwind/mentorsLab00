@@ -30,11 +30,11 @@ find_package(GTest CONFIG REQUIRED)
 add_library(lab_00 STATIC
   # enum your files and delete this comment
   ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
-        sources/task01.cpp)
+        sources/task01.cpp sources/task02.cpp)
 add_executable(tests
   # TODO: enum your files and delete this comment
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
-        sources/task01.cpp)
+        sources/task01.cpp sources/task02.cpp)
 
 target_include_directories(lab_00
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
@@ -51,7 +51,6 @@ if(BUILD_COVERAGE)
   set(ENABLE_COVERAGE ON CACHE BOOL "Enable coverage build." FORCE)
   list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
   find_package(codecov)
-  # TODO: change template word to project name and delete this comment
   add_coverage(lab_00)
   add_coverage(tests)
   list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")

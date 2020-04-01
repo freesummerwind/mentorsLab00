@@ -30,11 +30,11 @@ find_package(GTest CONFIG REQUIRED)
 add_library(lab_00 STATIC
   # enum your files and delete this comment
   ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
-        sources/task01.cpp sources/task02.cpp)
+        sources/task01.cpp sources/task02.cpp sources/task03.cpp)
 add_executable(tests
   # TODO: enum your files and delete this comment
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
-        sources/task01.cpp sources/task02.cpp)
+        sources/task01.cpp sources/task02.cpp sources/task03.cpp)
 
 target_include_directories(lab_00
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include

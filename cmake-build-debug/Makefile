@@ -233,6 +233,36 @@ sources/task02.cpp.s:
 	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task02.cpp.s
 .PHONY : sources/task02.cpp.s
 
+sources/task03.obj: sources/task03.cpp.obj
+
+.PHONY : sources/task03.obj
+
+# target to build an object file
+sources/task03.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task03.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task03.cpp.obj
+.PHONY : sources/task03.cpp.obj
+
+sources/task03.i: sources/task03.cpp.i
+
+.PHONY : sources/task03.i
+
+# target to preprocess a source file
+sources/task03.cpp.i:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task03.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task03.cpp.i
+.PHONY : sources/task03.cpp.i
+
+sources/task03.s: sources/task03.cpp.s
+
+.PHONY : sources/task03.s
+
+# target to generate assembly for a file
+sources/task03.cpp.s:
+	$(MAKE) -f CMakeFiles\lab_00.dir\build.make CMakeFiles/lab_00.dir/sources/task03.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/task03.cpp.s
+.PHONY : sources/task03.cpp.s
+
 tests/test.obj: tests/test.cpp.obj
 
 .PHONY : tests/test.obj
@@ -280,6 +310,9 @@ help:
 	@echo ... sources/task02.obj
 	@echo ... sources/task02.i
 	@echo ... sources/task02.s
+	@echo ... sources/task03.obj
+	@echo ... sources/task03.i
+	@echo ... sources/task03.s
 	@echo ... tests/test.obj
 	@echo ... tests/test.i
 	@echo ... tests/test.s

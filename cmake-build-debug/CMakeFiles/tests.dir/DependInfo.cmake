@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Lab_Mentors/lab_00/sources/task01.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/tests.dir/sources/task01.cpp.obj"
   "D:/Lab_Mentors/lab_00/sources/task02.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/tests.dir/sources/task02.cpp.obj"
+  "D:/Lab_Mentors/lab_00/sources/task03.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/tests.dir/sources/task03.cpp.obj"
   "D:/Lab_Mentors/lab_00/tests/test.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/tests.dir/tests/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

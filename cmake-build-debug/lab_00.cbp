@@ -149,6 +149,10 @@
 			<Option target="lab_00"/>
 			<Option target="tests"/>
 		</Unit>
+		<Unit filename="D:/Lab_Mentors/lab_00/sources/task03.cpp">
+			<Option target="lab_00"/>
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="D:/Lab_Mentors/lab_00/tests/test.cpp">
 			<Option target="tests"/>
 		</Unit>

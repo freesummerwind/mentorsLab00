@@ -98,11 +98,26 @@ CMakeFiles/lab_00.dir/sources/task02.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_00.dir/sources/task02.cpp.s"
 	C:\dev\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Lab_Mentors\lab_00\sources\task02.cpp -o CMakeFiles\lab_00.dir\sources\task02.cpp.s
 
+CMakeFiles/lab_00.dir/sources/task03.cpp.obj: CMakeFiles/lab_00.dir/flags.make
+CMakeFiles/lab_00.dir/sources/task03.cpp.obj: CMakeFiles/lab_00.dir/includes_CXX.rsp
+CMakeFiles/lab_00.dir/sources/task03.cpp.obj: ../sources/task03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Lab_Mentors\lab_00\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_00.dir/sources/task03.cpp.obj"
+	C:\dev\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab_00.dir\sources\task03.cpp.obj -c D:\Lab_Mentors\lab_00\sources\task03.cpp
+
+CMakeFiles/lab_00.dir/sources/task03.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_00.dir/sources/task03.cpp.i"
+	C:\dev\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Lab_Mentors\lab_00\sources\task03.cpp > CMakeFiles\lab_00.dir\sources\task03.cpp.i
+
+CMakeFiles/lab_00.dir/sources/task03.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_00.dir/sources/task03.cpp.s"
+	C:\dev\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Lab_Mentors\lab_00\sources\task03.cpp -o CMakeFiles\lab_00.dir\sources\task03.cpp.s
+
 # Object files for target lab_00
 lab_00_OBJECTS = \
 "CMakeFiles/lab_00.dir/sources/source.cpp.obj" \
 "CMakeFiles/lab_00.dir/sources/task01.cpp.obj" \
-"CMakeFiles/lab_00.dir/sources/task02.cpp.obj"
+"CMakeFiles/lab_00.dir/sources/task02.cpp.obj" \
+"CMakeFiles/lab_00.dir/sources/task03.cpp.obj"
 
 # External object files for target lab_00
 lab_00_EXTERNAL_OBJECTS =
@@ -110,9 +125,10 @@ lab_00_EXTERNAL_OBJECTS =
 liblab_00d.a: CMakeFiles/lab_00.dir/sources/source.cpp.obj
 liblab_00d.a: CMakeFiles/lab_00.dir/sources/task01.cpp.obj
 liblab_00d.a: CMakeFiles/lab_00.dir/sources/task02.cpp.obj
+liblab_00d.a: CMakeFiles/lab_00.dir/sources/task03.cpp.obj
 liblab_00d.a: CMakeFiles/lab_00.dir/build.make
 liblab_00d.a: CMakeFiles/lab_00.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Lab_Mentors\lab_00\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library liblab_00d.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Lab_Mentors\lab_00\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblab_00d.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\lab_00.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab_00.dir\link.txt --verbose=$(VERBOSE)
 

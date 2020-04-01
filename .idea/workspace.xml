@@ -37,6 +37,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="CMake Application.tests">
     <configuration name="lab_00" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_00" TARGET_NAME="lab_00" CONFIG_NAME="Debug">
@@ -65,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585760404490</updated>
       <workItem from="1585760407086" duration="770000" />
-      <workItem from="1585761213529" duration="1122000" />
+      <workItem from="1585761213529" duration="2010000" />
     </task>
     <servers />
   </component>

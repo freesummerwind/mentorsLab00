@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Lab_Mentors/lab_00/sources/source.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/lab_00.dir/sources/source.cpp.obj"
   "D:/Lab_Mentors/lab_00/sources/task01.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/lab_00.dir/sources/task01.cpp.obj"
   "D:/Lab_Mentors/lab_00/sources/task02.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/lab_00.dir/sources/task02.cpp.obj"
+  "D:/Lab_Mentors/lab_00/sources/task03.cpp" "D:/Lab_Mentors/lab_00/cmake-build-debug/CMakeFiles/lab_00.dir/sources/task03.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

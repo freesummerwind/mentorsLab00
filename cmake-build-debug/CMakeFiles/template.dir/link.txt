@@ -1,0 +1,2 @@
+C:\dev\mingw64\mingw64\bin\ar.exe qc libtemplated.a  CMakeFiles/template.dir/sources/source.cpp.obj CMakeFiles/template.dir/sources/task01.cpp.obj
+C:\dev\mingw64\mingw64\bin\ranlib.exe libtemplated.a
